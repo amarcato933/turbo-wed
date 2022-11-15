@@ -1,6 +1,6 @@
 # Wedding Landing Page - E & E
 
-![Thumbnail](/image/thumbnail-web-sherly-daeng-menikah.png)
+<!-- ![Thumbnail](/image/thumbnail-web-sherly-daeng-menikah.png)-->
 
 
 # Section/Feature
