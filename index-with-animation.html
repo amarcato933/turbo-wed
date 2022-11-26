@@ -45,12 +45,12 @@
           <div id="mobile-nav" class="navbar-menu">
             <div class="navbar-end">
               <div class="navbar-item">
-                <a class="navbar-item" href="#Waktu">
+                <a class="navbar-item" href="#Quando">
                   Quando?
                 </a>
               </div>
               <div class="navbar-item">
-                <a class="navbar-item" href="#lokasi">
+                <a class="navbar-item" href="#Dove">
                   Dove?
                 </a>
               </div>
@@ -61,7 +61,7 @@
                 </a>
               </div>
               <div class="navbar-item">
-                <a class="navbar-item" href="#rsvp">
+                <a class="navbar-item" href="#conferme">
                   Conferme
                 </a>
               </div>
@@ -73,7 +73,7 @@
         <div class="hero-body">
           <div class="container has-text-centered">
             <h1 class="subtitle">Il giorno è finalmente arrivato</h1>
-            <h2 class="title">E & E</h2>
+            <h2 class="title">Ezio & Elisa</h2>
             <h4 class="subtitle tempatwaktu">
               
                 5 Giugno 2023 
@@ -87,7 +87,7 @@
 
           <!-- Start Countdown -->       
           <div>
-            <ul id="hitungmundur" >
+            <ul id="countdown" >
               <li><span class="days">00</span><p class="days_text">Giorni</p></li>
               <li class="separator">:</li>
               <li><span class="hours">00</span><p class="hours_text">Ore</p></li>
@@ -105,13 +105,13 @@
               var year = now.getFullYear() + 1;
           
               var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var harih = '03/21/2020 17:00:00';
+              var dataora = '06/05/2023 10:30:00';
 
-              $('#hitungmundur').countdown({
-                date: harih, // TODO Date format: 07/27/2017 17:00:00
+              $('#countdown').countdown({
+                date: dataora, // TODO Date format: 07/27/2017 17:00:00
                 offset: +2, // TODO Your Timezone Offset
-                day: 'Hari',
-                days: 'Hari'
+                day: 'Giorni',
+                days: 'Giorni'
               }, function () {
                 alert('Ci sposiamo!');
               });
@@ -134,10 +134,10 @@
                     <a href="#home">Home</a>
                   </li>
                   <li>
-                    <a href="#Waktu">Quando</a>
+                    <a href="#quando">Quando</a>
                   </li>
                   <li>
-                    <a href="#lokasi">Dove</a>
+                    <a href="#dove">Dove</a>
                   </li>
                   <li>
                     <a href="#tentang-sherly-daeng">Contatti</a>
@@ -172,12 +172,12 @@
           Continua..
         </p>
         <div data-aos="fade-in" data-aos-easing="linear">
-          <div class="nama-lengkap" >
-            Nome in lungo 1
+          <div class="nome-cognome" >
+            Ignazio Marcato
           </div>
             <div class="ampersand">&</div>
-            <div class="nama-lengkap">
-              Nome in lungo 2
+            <div class="nome-cognome">
+              Elisa Mannone
             </div>
             TODO
           </div>
@@ -249,10 +249,11 @@
                   </p>
                 </div>
                 <div class="section-map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1280267408406!2d106.9691569150978!3d-6.246854895478259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d5988a190d9%3A0x22b6a052b0a6a5f3!2sRM.%20Pondok%20Kenanga!5e0!3m2!1sen!2sid!4v1579433583123!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5680.1962634890115!2d10.698318836649424!3d44.61546848096373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477ff857c48c6b77%3A0x49d5f938c487b2a7!2sCorte%20Del%20Mulino!5e0!3m2!1sit!2sit!4v1669468977552!5m2!1sit!2sit" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+                  </iframe>
                 </div>
                 <div class="has-text-centered">
-                  <a href="https://maps.google.com/maps?ll=-6.246855,106.971346&z=16&t=m&hl=en&gl=ID&mapclient=embed&daddr=RM.%20Pondok%20Kenanga%20Jl.%20Kenanga%20Raya%20No.9%20RT.001%2FRW.006A%2C%20Jakasampurna%20Bekasi%20Barat%2C%20Bekasi%20City%2C%20West%20Java%2017145@-6.2468549,106.9713456" class="button btn-arah" data-aos="fade-right">
+                  <a href="https://www.google.it/maps/place/Corte+Del+Mulino/@44.6154685,10.6983188,16z/data=!4m5!3m4!1s0x477ff857c48c6b77:0x49d5f938c487b2a7!8m2!3d44.6153857!4d10.6992763" class="button btn-arah" data-aos="fade-right">
                     <i class="far fa-directions"></i>
                     &nbsp;&nbsp;Apri su Google Maps
                   </a>
