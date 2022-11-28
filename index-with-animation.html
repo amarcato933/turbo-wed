@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>E & E</title>
+    <title>Ezio ed Elisa si sposano!</title>
     <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="css/menikah.css" />
@@ -16,6 +16,9 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/jquery.coundown.js"></script>
     <link rel="icon" type="image/png" href="image/parrot.gif" />
+    <link rel="stylesheet" href="/path/to/dist/css/image-zoom.css" />
+    <script src="/path/to/cdn/jquery.min.js"></script>
+    <script src="/path/to/dist/js/image-zoom.min.js"></script>
   </head>
 
   <body>
@@ -156,7 +159,10 @@
       
       <!-- Begin regular-section-->
       <div class="section-light regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
-        
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/alloro-divider.png" class="divider has-text-centered" alt="~~~">
+        </div>
+
         <p class="bodytext" data-aos="fade-in" data-aos-easing="linear">
           Un racconto?
           <br />
@@ -205,11 +211,10 @@
                       <br>
                       <strong>10.30</strong>
                       <br>
-                      <div class="has-text-centered">
-                        <a href="https://goo.gl/maps/UZUD3FiLAYuhqoYD7" class="button btn-arah" data-aos="fade-right">
-                          <br><br>
+                      <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                        <a href="https://goo.gl/maps/UZUD3FiLAYuhqoYD7" class="button has-tooltip btn-cta">
                           <i class="far fa-directions"></i>
-                          &nbsp;&nbsp;Portami in Chiesa Grande
+                          &nbsp;&nbsp;Chiesa Grande
                         </a>
                       </div>
                     </h1>
@@ -223,16 +228,22 @@
                       Pranzo in location:
                       <br>
                       <strong>15.00 - 21.00</strong>
-                      <br>
-                      <div class="has-text-centered">
-                        <a href="https://g.page/corte-del-mulino-re?share" class="button btn-arah" data-aos="fade-right">
+                      <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                        <a href="https://g.page/corte-del-mulino-re?share" class="button has-tooltip btn-cta">
                           <br><br>
                           <i class="far fa-directions"></i>
-                          &nbsp;&nbsp;Portami alla Corte del Mulino
+                          &nbsp;&nbsp;Corte del Mulino
                         </a>
                       </div>
                     </h1>
                   </div>
+                </div>
+
+                <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                  <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGl2MTRmdmM0ajU5Nms2M2RjY3JqdDAxNzMgOGRmZTRjMWE5MGM1OGZmYjU5NzE0ZTE1YjFkMWYyNzc2MjQzNzFlNTcwMjIyZGI0OTIzMjJkNmZjZmU1Y2NmM0Bn&tmsrc=8dfe4c1a90c58ffb59714e15b1d1f277624371e570222db492322d6fcfe5ccf3%40group.calendar.google.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+                    <i class="far fa-calendar-plus"></i>
+                    &nbsp;&nbsp;Google Calendar
+                  </a>
                 </div>
               </div>
         <!-- End when Content -->
@@ -288,9 +299,7 @@
     </div>
 
 
-      
-
-      <!-- Begin Foto -->
+      <!-- Begin Foto -->      
       <div class="section-dark foto-foto" id="foto">
         <div class="container">
           <div
@@ -299,7 +308,7 @@
             data-aos-easing="linear"
           >
             <div class="column is-12">
-              <h1 class="title has-text-centered section-title">Foto vostre? Da rendere cliccabili</h1>
+              <h1 class="title has-text-centered section-title">Foto vostre? Da rendere cliccabili. Utilizza questa griglia + over and click sito</h1>
             </div>
             <div class="column is-3">
               <a href="#">
@@ -475,6 +484,8 @@
           >
             <div class="column is-12 prolog">
               <h1 class="title has-text-centered section-title">Venite o no?</h1>
+
+              https://www.youtube.com/watch?v=knGk9aUr4Do
             </div>
             <div class="column is-12 prolog has-text-centered">
                 
