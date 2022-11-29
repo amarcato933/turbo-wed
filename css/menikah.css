@@ -383,7 +383,7 @@ vertical-align: middle;
 }
 
 .divider {
-  margin: 40px 25px;
+  margin: -10px 25px;
   display: inline-block;
   max-height: 80px;
   vertical-align: middle;
